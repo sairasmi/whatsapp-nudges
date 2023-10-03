@@ -1,0 +1,8 @@
+requirements
+wn-app/src/.env
+wn-app/data
+**/__pycache__/
+venv/
+.DS_Store
+Notes
+wn-app/logs

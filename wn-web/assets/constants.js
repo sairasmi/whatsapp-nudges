@@ -1,0 +1,16 @@
+const CONSTANTS = {
+    BASE_URL: "http://127.0.0.1:8000",
+};
+
+const API_ENDPOINTS = {
+    STORE_DATA: `${CONSTANTS.BASE_URL}/wn/store-data`,
+    GET_NUDGES: `${CONSTANTS.BASE_URL}/wn/nudges`,
+    
+    GET_DIRECTORATE: `${CONSTANTS.BASE_URL}/wn/directorate`,
+    GET_DESIGNATION_BY_DIRECTORATE: `${CONSTANTS.BASE_URL}/wn/designations`,
+    GET_DISTRICT_BY_DIRECTORATE_AND_DESIGNATION: `${CONSTANTS.BASE_URL}/wn/districts`,
+    SENT_MSG_SINGLE: `${CONSTANTS.BASE_URL}/wn/sent`,
+    SENT_MSG_BULK: `${CONSTANTS.BASE_URL}/wn/sent-bulk`,
+};
+
+export { CONSTANTS, API_ENDPOINTS };
